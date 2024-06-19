@@ -25,6 +25,15 @@ body {
     max-width: 90%;
     margin: 20px;
     overflow: hidden; /* Ensure no content overflows the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements horizontally */
+}
+
+.container img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 20px; /* Space between the logo and the heading */
 }
 
 label {
@@ -64,6 +73,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 100%;
 }
 
 .right img {
