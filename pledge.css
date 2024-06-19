@@ -1,4 +1,4 @@
-body {
+html, body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
@@ -8,6 +8,12 @@ body {
     align-items: center;
     min-height: 100vh;
     box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+    max-width: 100vw; /* Prevent the body from exceeding the viewport width */
 }
 
 .container {
@@ -18,6 +24,7 @@ body {
     text-align: center;
     max-width: 90%;
     margin: 20px;
+    overflow: hidden; /* Ensure no content overflows the container */
 }
 
 label {
