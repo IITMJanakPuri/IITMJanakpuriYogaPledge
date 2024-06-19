@@ -30,9 +30,8 @@ function generateCertificate() {
         minute: 'numeric',
         second: 'numeric'
     });
-    const email = document.getElementById('email').value;
 
-    if (!name || !college || !email) {
+    if (!name || !college) {
         alert('Please fill out all fields.');
         return;
     }
